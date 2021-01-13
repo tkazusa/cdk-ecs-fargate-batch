@@ -22,6 +22,6 @@ $ cdk deploy ecs-fargate-batch
 `./EcsFargateConstruct/src/stack/ecs_fargate.py` において、Fargate で仕様する Docker イメージは、`fromEcrRepository` API を使って指定している。これを使ってデプロイした場合、ECR の Docker イメージが更新されたとしても、Fargate のイメージは更新されない。
 
 ## 参考
-[AWS CDKでECSにデプロイするDockerイメージのマシな管理方法](https://www.ncaq.net/2020/11/09/16/39/42/)
-[homoluctus/cdk-py-template](https://github.com/homoluctus/cdk-py-template)
-[【AWS】CDKでECRを構築しよう](https://qiita.com/homines22/items/71e5b596e3edab46f0621)
+- [AWS CDKでECSにデプロイするDockerイメージのマシな管理方法](https://www.ncaq.net/2020/11/09/16/39/42/)
+- [homoluctus/cdk-py-template](https://github.com/homoluctus/cdk-py-template)
+- [【AWS】CDKでECRを構築しよう](https://qiita.com/homines22/items/71e5b596e3edab46f0621)
