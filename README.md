@@ -1,5 +1,9 @@
 # AWS Fargate を Amazon CloudWatch Events トリガでバッチ処理
 
+## Requirements
+- Python >3.8
+- AWS CDK >1.82.0
+
 ## Amazon ECR のリポジトリ を作成
 ```bash
  $ cd EcrConstruct
